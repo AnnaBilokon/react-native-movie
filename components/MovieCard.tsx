@@ -3,13 +3,17 @@ import React from "react";
 import { Link } from "expo-router";
 import { icons } from "@/constants/icons";
 
+type MovieCardProps = Movie & {
+  onPress?: () => void;
+};
+
 const MovieCard = ({
   id,
   title,
   poster_path,
   vote_average,
   release_date,
-}: Movie) => {
+}: MovieCardProps) => {
   return (
     <Link href={`/movie/${id}`} asChild>
       <TouchableOpacity className="w-[30%]">
