@@ -37,7 +37,7 @@ Built with a **scalable, component-driven architecture** and optimized for perfo
 
 ## 📸 Screenshots
 
-![Movie App image](assets/images/project_img.png)
+![Movie App image](./assets/images/project_img.PNG)
 
 ---
 
